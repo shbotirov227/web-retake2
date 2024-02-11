@@ -1,0 +1,13 @@
+.GiftCards {
+    margin-bottom: 150px;
+
+    .cards {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 300px;
+            margin: 0 20px;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+.Footer {
+    padding: 50px 0;
+    position: relative;
+    z-index: 3;    
+    // background: linear-gradient(119deg,  rgb(33, 30, 31) 0%, rgb(3, 11, 37) 100%);
+    background: linear-gradient(119deg,  rgba(49, 48, 53, 1) -2.11%, rgba(6, 74, 94, 1) 63.58%);
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+    };
+
+    &-left {
+        width: 20%;
+
+        .footerLogo {
+            width: 75%;
+            height: 16%;
+        }
+    }
+
+    &-text {
+        color: #F3F3F3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        margin: 25px 0;
+    }
+
+    &-icons {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-service {
+        color: #F3F3F3;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 200%;
+    }
+
+    .allServices {
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .service-title {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+    }
+
+    &-services {
+        width: 30%;
+
+        li {
+            margin-bottom: 10px;
+        }
+
+    }
+
+    &-inputSection {
+
+        &-text {
+            color: #F3F3F3;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            margin: 25px 0 20px 0;
+        }
+
+        &-input {
+            width: 65%;
+            color: #959595;
+            font-size: 12.159px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            background-color: transparent;
+            border: none;
+            outline: none;
+        }
+
+        .inputSection-inputContent {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #FFF;
+            position: relative;
+            padding: 25px 25px;
+            border: 2px solid #F1F1F1;
+            border-radius: 45px;    
+        }
+
+        .btn-secondary {
+            height: 80%;
+            position: absolute;
+            right: 5px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            font-size: 15px;
+            background-color: #396f88;
+        }
+    }
+
+    .copyright {
+        color: #FEFEFE;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+        border-top: 1px solid #4C4D8B;
+        text-align: center;
+        padding-top: 35px;
+        margin-top: 80px;
+    }
+}

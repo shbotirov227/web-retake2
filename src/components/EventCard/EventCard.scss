@@ -1,0 +1,90 @@
+.EventCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 20%;
+    margin: 25px;
+    // border-radius: 10px;
+    // border: 1px solid rgba(34, 60, 80, 0.1);
+    box-sizing: border-box;
+    transition: all ease 0.4s;
+    overflow: hidden;  
+
+    &-img {
+        width: 50%;
+        height: 200px;
+    }
+
+    &-title {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        margin-bottom: 15px;
+    }
+
+    &-text {
+        color: #7b7878;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        margin-bottom: 15px;
+    }
+
+    &-month {
+        color: #070707;
+        text-align: center;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &-date {
+        color: #070707ad;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 10px;
+    }
+    
+    &-author {
+        color: #070707ad;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 10px;
+    }
+
+    &-type {
+        font-size: 9px;
+        font-weight: 500;
+        color: #ffffff;
+        background-color: #215688;
+        display: inline-block;
+        padding: 5px 15px;
+        border-radius: 10px;
+    }
+
+    &-bottom {
+        // padding: 20px 30px;
+        padding: 15px;
+        
+        .dates {
+            margin-bottom: 20px;
+        }
+    }
+
+    .buyBtn {
+        width: 100%;
+        // background-color: #215b88;
+        padding: 15px;
+        color: #000;
+        font-size: 15px;
+    }
+}
